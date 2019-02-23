@@ -8,7 +8,7 @@ export default class NavBar extends Component {
                 <h2>NavBar</h2>
                 <ul className="header">
                     <li><NavLink to="/">Home</NavLink></li>
-                    <li><NavLink to="/stuff">Stuff</NavLink></li>
+                    <li><NavLink to="/projects">Projects</NavLink></li>
                     <li><NavLink to="/contact">Contact</NavLink></li>
                 </ul>
             </div>
