@@ -1,25 +1,23 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
-import SiteNavBar from './SiteNavBar';
-import Home from "../pages/Home";
-import Projects from "../pages/Projects";
-import Passions from "../pages/Passions";
-import Contact from "../pages/Contact";
-import About from "../pages/About";
+import {Route, BrowserRouter } from 'react-router-dom';
+import Home from "./Home";
+import Stuff from "./Stuff";
+import Contact from "./Contact";
+import NavBar from './NavBar';
 
-export default class App extends React.Component {
+class App extends React.Component {
   render() {
     return (
         <div>
-          <SiteNavBar/>
-          <div className="page">
+          <NavBar/>
+          <div className="content">
             <Route exact path="/" component={Home}/>
-            <Route path="/projects" component={Projects}/>
-            <Route path="/passions" component={Passions}/>
-            <Route path="/about" component={About}/>
+            <Route path="/stuff" component={Stuff}/>
             <Route path="/contact" component={Contact}/>
           </div>
         </div>
     );
   }
 }
+
+export default App;
