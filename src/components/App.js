@@ -10,16 +10,16 @@ import About from "../pages/About";
 export default class App extends React.Component {
   render() {
     return (
-        <div>
-          <SiteNavBar/>
-          <div className="page">
-            <Route exact path="/" component={Home}/>
-            <Route path="/projects" component={Projects}/>
-            <Route path="/passions" component={Passions}/>
-            <Route path="/about" component={About}/>
-            <Route path="/contact" component={Contact}/>
-          </div>
-        </div>
+      <div>
+        <SiteNavBar/>
+        <section className="page">
+          <Route exact path="/" component={Home}/>
+          <Route path="/projects" component={Projects}/>
+          <Route path="/passions" component={Passions}/>
+          <Route path="/about" component={About}/>
+          <Route path="/contact" component={Contact}/>
+        </section>
+      </div>
     );
   }
 }
