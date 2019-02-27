@@ -15,6 +15,8 @@ export default class SiteNavBar extends Component {
                         <LinkContainer to="/passions"><Nav.Link>Passions</Nav.Link></LinkContainer>
                         <LinkContainer to="/about"><Nav.Link>About</Nav.Link></LinkContainer>
                         <LinkContainer to="/contact"><Nav.Link>Contact</Nav.Link></LinkContainer>
+                        <Nav.Link href="https://github.com/mattfinnell"><i className="fab fa-github"></i></Nav.Link>
+                        <Nav.Link href="https://www.linkedin.com/in/mattfinnell/"><i className="fab fa-linkedin"></i></Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
