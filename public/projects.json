@@ -1,0 +1,5 @@
+[
+  { "name": "Personal Site", "link": "https://github.com/mattfinnell/personal-site", "description": "It's that site that you're currently looking at", "tools": ["react", "node-js", "aws"] },
+  { "name": "Flask Webpack Cookie Cutter", "link": "https://github.com/mattfinnell/flask-webpack-cookiecutter", "description": "Something", "tools": ["python", "flask", "webpack", "node-js"] },
+  { "name": "Practice Algorithms", "link": "https://github.com/mattfinnell/practice-algorithms", "description": "Using this project to brush up on all the algorithms and Data Structures that I studied in Computer Science.", "tools": ["python"] }
+]
