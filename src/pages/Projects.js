@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import Project from '../components/Project';
 import axios from 'axios';
 
@@ -24,7 +24,7 @@ export default class Projects extends React.Component {
   render() {
     return (
       <Container>
-        <Row><h1>Projects</h1></Row>
+        <Row><Col md={12} className="text-center"><h1>Projects</h1></Col></Row>
         {this.state.projects.map(project => <Project project={project} key={project.name}/>)}
       </Container>
     );

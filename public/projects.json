@@ -1,5 +1,5 @@
 [
-  { "name": "Personal Site", "link": "https://github.com/mattfinnell/personal-site", "description": "It's that site that you're currently looking at", "tools": ["react", "node-js", "aws"] },
-  { "name": "Flask Webpack Cookie Cutter", "link": "https://github.com/mattfinnell/flask-webpack-cookiecutter", "description": "Something", "tools": ["python", "flask", "webpack", "node-js"] },
-  { "name": "Practice Algorithms", "link": "https://github.com/mattfinnell/practice-algorithms", "description": "Using this project to brush up on all the algorithms and Data Structures that I studied in Computer Science.", "tools": ["python"] }
+  { "name": "Personal Site", "link": "https://github.com/mattfinnell/personal-site", "description": "The Source Code for this Website. Feel free to thumb through everything thing that you see. I tried to keep it very simple.", "tools": ["react", "node-js", "aws"] },
+  { "name": "Flask Webpack Cookie Cutter", "link": "https://github.com/mattfinnell/flask-webpack-cookiecutter", "description": "I made this tool in the fall of 2017 when working with other websites. I wanted to blast out a default Flask+Webpack application without having to tie everything together by hand anymore. This actually got featured in a Python Community News-letter!", "tools": ["python", "node-js"] },
+  { "name": "Practice Algorithms", "link": "https://github.com/mattfinnell/practice-algorithms", "description": "Used (and maybe still using) this project to brush up on all the algorithms and Data Structures that I studied when taking Computer Science. Good for interviews.", "tools": ["python"] }
 ]
