@@ -12,10 +12,9 @@ export default class Home extends Component {
         <Row><h1>Matt Finnell</h1></Row>
         <Row><p>Seattle Based Software Engineer</p></Row>
         <Row>
-          <Col md={3}><LinkContainer to="/projects"><Button>Projects</Button></LinkContainer></Col>
-          <Col md={3}><LinkContainer to="/passions"><Button>Passions</Button></LinkContainer></Col>
-          <Col md={3}><LinkContainer to="/about"><Button>About</Button></LinkContainer></Col>
-          <Col md={3}><LinkContainer to="/contact"><Button>Contact</Button></LinkContainer></Col>
+          <Col md={4}><LinkContainer to="/projects"><Button>Projects</Button></LinkContainer></Col>
+          <Col md={4}><LinkContainer to="/about"><Button>About</Button></LinkContainer></Col>
+          <Col md={4}><LinkContainer to="/contact"><Button>Contact</Button></LinkContainer></Col>
         </Row>
         <Row>
           <a href="https://github.com/mattfinnell"><i className="fab fa-github"></i></a>
