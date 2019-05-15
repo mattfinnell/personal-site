@@ -8,15 +8,15 @@ import { Container } from 'react-bootstrap';
 export default class App extends React.Component {
   render() {
     return (
-      <Container>
+      <Container className="site">
         <Landing/>
         <Bio/>
         <Jobs/>
         <Projects/>
         <Accolades/>
         <Education/>
-        <ProfessionalNetworkingButtons/>
         <Contact/>
+        <ProfessionalNetworkingButtons/>
       </Container>
     );
   }

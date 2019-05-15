@@ -1,11 +1,83 @@
-#home {
-  height : 100vh;
+/* Default Styling for XS Devices */
+#landing,
+.site-section {
+  min-height : 100vh;
 }
 
-h2, .resume-buttons {
-  margin-top : 120px;
+.site:last-child {
+  padding-bottom: 0px;
 }
 
-#contact {
-  padding-bottom : 180px;
+h2 {
+  padding: 40px 0;
+}
+
+#landing i {
+  padding : 0 10px;
+}
+
+#jobs {
+  text-align : left;
+}
+
+#jobs h4 {
+  margin-bottom: 0;
+}
+
+#projects i.tool {
+  font-size: 0.8em;
+  padding-left: 10px;
+}
+
+#accolades ul {
+  padding-left : 12px;
+}
+
+#education h5 {
+  margin-bottom: 0;
+}
+
+#professional-networking-buttons i {
+  padding-right: 8px
+}
+
+#professional-networking-buttons .btn {
+  min-width: 120px;
+  width : 180px;
+  margin : 40px 0;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+}
+
+/*  Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  .site-section {
+    min-height : 50vh;
+  }
+
+  #jobs .job-title {
+    text-align: right;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  #education {
+    text-align: center;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+}
+
+/* Utils */
+.verticaly-center-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }

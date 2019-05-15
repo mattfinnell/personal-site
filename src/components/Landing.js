@@ -4,7 +4,7 @@ import { Row, Col } from 'react-bootstrap';
 export default class Landing extends React.Component {
   render() {
     return (
-      <section id="landing" className="text-center" >
+      <section id="landing" className="text-center verticaly-center-child" >
         <Row><Col md={12}><h1>Matt Finnell</h1></Col></Row>
         <Row><Col md={12}><p>Seattle Based Software Engineer</p></Col></Row>
         <Row>
