@@ -13,7 +13,7 @@ export default class Projects extends React.Component {
   }
 
   componentWillMount() {
-    axios.get('https://s3-us-west-2.amazonaws.com/mattfinnell-io-frontend/projects.json')
+    axios.get(process.env.PUBLIC_URL + '/projects.json')
       .then(response => {
         this.setState({projects: response.data});
       }).catch(error => {
