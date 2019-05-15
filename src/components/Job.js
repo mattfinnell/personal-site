@@ -6,8 +6,8 @@ export default class Job extends React.Component {
     return (
       <div className="job">
         <Row>
-          <Col lg={9}><h4>{this.props.job.company}</h4></Col>
-          <Col lg={3}><p>{this.props.job.position}</p></Col>
+          <Col lg={9} className="company"><h4>{this.props.job.company}</h4></Col>
+          <Col lg={3} className="job-title text-right"><p>{this.props.job.position}</p></Col>
         </Row>
       </div>
     )
