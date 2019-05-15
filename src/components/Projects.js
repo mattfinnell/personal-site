@@ -1,6 +1,6 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
-import Project from '../components/Project';
+import { Row, Col } from 'react-bootstrap';
+import Project from './Project';
 import axios from 'axios';
 
 export default class Projects extends React.Component {
@@ -23,10 +23,10 @@ export default class Projects extends React.Component {
 
   render() {
     return (
-      <Container id="projects">
+      <section id="projects" className="site-section">
         <Row><Col md={12} className="text-center"><h2>Projects</h2></Col></Row>
         {this.state.projects.map(project => <Project project={project} key={project.name}/>)}
-      </Container>
+      </section>
     );
   }
 }

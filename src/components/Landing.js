@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 export default class Landing extends React.Component {
   render() {
     return (
-      <Container className="text-center" id="home">
+      <div className="text-center" id="landing">
         <Row><Col md={12}><h1>Matt Finnell</h1></Col></Row>
         <Row><Col md={12}><p>Seattle Based Software Engineer</p></Col></Row>
         <Row>
@@ -15,7 +15,7 @@ export default class Landing extends React.Component {
             </h4>
           </Col>
         </Row>
-      </Container>
+      </div>
     )
   }
 }
