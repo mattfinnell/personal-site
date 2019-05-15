@@ -1,6 +1,6 @@
 [
   { "company": "Milliman", "position" : "Software Engineer", "description" : "Lorem Ipsum SIt Dolor Amet"},
-  { "company": "Society of Photonic Innovation and Engineering (SPIE)", "position" : "Software Engineer", "description" : "Lorem Ipsum SIt Dolor Amet"},
-  { "company": "Technology Alliance Group | NW", "position" : "Software Engineer", "description" : "Lorem Ipsum SIt Dolor Amet"},
+  { "company": "Society of Photonic Innovation and Engineering", "position" : "Software Engineer", "description" : "Lorem Ipsum SIt Dolor Amet"},
+  { "company": "Technology Alliance Group", "position" : "Software Engineer", "description" : "Lorem Ipsum SIt Dolor Amet"},
   { "company": "Prepared Response", "position" : "Front End Developer", "description" : "Lorem Ipsum SIt Dolor Amet"}
 ]
