@@ -1,5 +1,6 @@
 /* Default Styling for XS Devices */
-section {
+#landing,
+.site-section {
   min-height : 100vh;
 }
 
@@ -8,7 +9,7 @@ section {
 }
 
 h2 {
-  padding-bottom : 40px;
+  padding: 40px 0;
 }
 
 #landing i {
@@ -32,7 +33,7 @@ h2 {
   padding-left : 12px;
 }
 
-#education h4 {
+#education h5 {
   margin-bottom: 0;
 }
 
@@ -53,12 +54,20 @@ h2 {
 
 /*  Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
+  .site-section {
+    min-height : 50vh;
+  }
 
+  #jobs .job-title {
+    text-align: right;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-
+  #education {
+    text-align: center;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -67,11 +76,6 @@ h2 {
 }
 
 /* Utils */
-/* .verticaly-center-child {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
 .verticaly-center-child {
   display: flex;
   flex-direction: column;
