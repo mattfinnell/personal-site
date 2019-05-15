@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
  
-export default class Home extends React.Component {
+export default class Landing extends React.Component {
   render() {
     return (
       <Container className="text-center" id="home">

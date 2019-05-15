@@ -1,14 +1,20 @@
 import React from 'react';
-import Home from "../pages/Home";
-import Contact from "../pages/Contact";
-import About from "../pages/About";
+import { 
+  Landing, Bio, Jobs, Projects, Accolades, 
+  Education, ProfessionalNetworkingButtons, Contact 
+} from './Sections';
 
 export default class App extends React.Component {
   render() {
     return (
       <div>
-        <Home/>
-        <About/>
+        <Landing/>
+        <Bio/>
+        <Jobs/>
+        <Projects/>
+        <Accolades/>
+        <Education/>
+        <ProfessionalNetworkingButtons/>
         <Contact/>
       </div>
     );
