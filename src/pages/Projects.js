@@ -24,7 +24,7 @@ export default class Projects extends React.Component {
   render() {
     return (
       <Container>
-        <Row><Col md={12} className="text-center"><h1>Projects</h1></Col></Row>
+        <Row><Col md={12} className="text-center"><h2>Projects</h2></Col></Row>
         {this.state.projects.map(project => <Project project={project} key={project.name}/>)}
       </Container>
     );
