@@ -15,7 +15,7 @@ export default class Jobs extends Component {
   }
 
   componentWillMount() {
-    axios.get('https://s3-us-west-2.amazonaws.com/mattfinnell-io-frontend/jobs.json')
+    axios.get(process.env.PUBLIC_URL + '/jobs.json')
       .then(response => {
         this.setState({jobs: response.data});
       }).catch(error => {
