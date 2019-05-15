@@ -1,16 +1,23 @@
 import React from 'react';
-import Home from "../pages/Home";
-import Contact from "../pages/Contact";
-import About from "../pages/About";
+import { 
+  Landing, Bio, Jobs, Projects, Accolades, 
+  Education, ProfessionalNetworkingButtons, Contact 
+} from './Sections';
+import { Container } from 'react-bootstrap';
 
 export default class App extends React.Component {
   render() {
     return (
-      <div>
-        <Home/>
-        <About/>
+      <Container>
+        <Landing/>
+        <Bio/>
+        <Jobs/>
+        <Projects/>
+        <Accolades/>
+        <Education/>
+        <ProfessionalNetworkingButtons/>
         <Contact/>
-      </div>
+      </Container>
     );
   }
 }

@@ -25,10 +25,10 @@ export default class Jobs extends Component {
 
   render() {
     return (
-      <section id="jobs">
+      <section id="jobs" className="site-section">
         <Row><Col md={12} className="text-center"><h2>Where I have Worked</h2></Col></Row>
         {this.state.jobs.map((job, i) => <Job job={job} key={i}/>)}
-      </section>
+      </section >
     );
   }
 }
