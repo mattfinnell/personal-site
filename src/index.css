@@ -1,4 +1,8 @@
 /* Default Styling for XS Devices */
+body {
+  background-image: linear-gradient(#aaaaaa, #6e95d3);
+}
+
 #landing,
 .site-section {
   min-height : 100vh;
@@ -10,6 +14,14 @@
 
 h2 {
   padding: 40px 0;
+}
+
+#landing-container {
+  /* background-image : url(./images/KingstonFerry.jpg);
+  background-repeat : no-repeat;
+  background-size: cover; */
+  margin : 0;
+  min-width : 100% !important;
 }
 
 #landing i {

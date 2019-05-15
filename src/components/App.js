@@ -8,16 +8,20 @@ import { Container } from 'react-bootstrap';
 export default class App extends React.Component {
   render() {
     return (
-      <Container className="site">
-        <Landing/>
-        <Bio/>
-        <Jobs/>
-        <Projects/>
-        <Accolades/>
-        <Education/>
-        <Contact/>
-        <ProfessionalNetworkingButtons/>
-      </Container>
+      <div>
+        <Container id="landing-container">
+          <Landing/>
+        </Container>
+        <Container id="site">
+          <Bio/>
+          <Jobs/>
+          <Projects/>
+          <Accolades/>
+          <Education/>
+          <Contact/>
+          <ProfessionalNetworkingButtons/>
+        </Container>
+      </div>
     );
   }
 }
