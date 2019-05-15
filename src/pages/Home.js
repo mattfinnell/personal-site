@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 export default class Home extends React.Component {
   render() {
     return (
-      <Container className="text-center">
+      <Container className="text-center" id="home">
         <Row><Col md={12}><h1>Matt Finnell</h1></Col></Row>
         <Row><Col md={12}><p>Seattle Based Software Engineer</p></Col></Row>
         <Row>
